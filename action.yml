@@ -1,4 +1,4 @@
-name: "Google Spreadsheet Synchronizer"
+name: "Google Spreadsheet in Sync"
 description: "Sync GitHub Project Issues and/or PRs to a Google Spreadsheet"
 branding:
   icon: "bar-chart-2"
