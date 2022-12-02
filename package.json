@@ -1,6 +1,6 @@
 {
   "name": "gsheet-sync",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Continuously export issues and pull requests data to a Google Spreadsheet",
   "main": "dist/index.js",
   "type": "module",
