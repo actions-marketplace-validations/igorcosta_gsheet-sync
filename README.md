@@ -1,10 +1,8 @@
-# Google Spreadsheet Synchronizer
+# Google Spreadsheet Sync
 
-Github Action to continuously export issues and pull requests data to a Google Spreadsheet
+GitHub Action to continuously export issues and pull requests data to a Google Spreadsheet
 
 ![Spreadsheet](./docs/demo.png)
-
-> A project initiated by [ViRGiL175](https://github.com/ViRGiL175/github-project-issue-to-sheets) with contributions from [Lityx](https://github.com/Lityx/github-project-issue-to-sheets).
 
 ## Quick Start
 
@@ -36,7 +34,7 @@ jobs:
     steps:
       - name: sync-issues-spreadsheet
         id: spreasheet-sync
-        uses: noelmace/spreadsheet-sync@v3
+        uses: igorcosta/gsheet-sync@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -98,3 +96,7 @@ Create a dedicated sheet for GitHub Issues data (cf. the `sheet-name` option).
 Add the Google API Service Account email to your document with editor access.
 
 ![new spreadsheet](./docs/new-spreadsheet.png)
+
+### Credits and inspiration
+
+> A project initiated by [ViRGiL175](https://github.com/ViRGiL175/github-project-issue-to-sheets) with contributions from [Lityx](https://github.com/Lityx/github-project-issue-to-sheets). and Noel Mance
