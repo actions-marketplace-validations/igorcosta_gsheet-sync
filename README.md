@@ -34,7 +34,7 @@ jobs:
     steps:
       - name: sync-issues-spreadsheet
         id: spreasheet-sync
-        uses: igorcosta/gsheet-sync@v3
+        uses: igorcosta/gsheet-sync@v1.0.9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
